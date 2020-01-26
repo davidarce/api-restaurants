@@ -42,7 +42,7 @@ Now you can access the API with base-path http://localhost:3000/
 # Endpoints 
 Authorization header is mandatory to access resources
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e9dc701c42cd2fba226e)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e9dc701c42cd2fba226e#?env%5BTYBA%5D=W3sia2V5IjoibG9jYWxob3N0IiwidmFsdWUiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJlbmFibGVkIjp0cnVlfV0=)
 
 ```
 Auth:
