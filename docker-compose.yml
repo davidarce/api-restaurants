@@ -1,0 +1,14 @@
+version: '2.1'
+
+services:
+  api-tyba-restaurants-v2:
+    image: api-tyba-restaurants-v2
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+    links: 
+      - redis:redis
+  redis:
+    image: 'redis:alpine'
