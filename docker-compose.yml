@@ -1,9 +1,11 @@
 version: '2.1'
 
 services:
-  api-tyba-restaurants-v2:
-    image: api-tyba-restaurants-v2
-    build: .
+  api-tyba-restaurants:
+    image: api-restaurants
+    build:
+      context: .
+      dockerfile: DockerFile
     environment:
       NODE_ENV: production
     ports:
