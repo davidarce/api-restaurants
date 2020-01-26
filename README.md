@@ -40,7 +40,9 @@ npm run start-dev
 Now you can access the API with base-path http://localhost:3000/
 
 # Endpoints 
-### Authorization header is mandatory to access resources
+Authorization header is mandatory to access resources
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/e9dc701c42cd2fba226e)
 
 ```
 Auth:
